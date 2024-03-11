@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h1{
+    margin-left: 140px;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #32f30bac;
+    height: 70px;
+    width: 400px;
+    font-size: 50px;
+    font-weight: 300;
+    border-radius: 10px;
+}
