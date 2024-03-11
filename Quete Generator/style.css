@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ceebeb;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quote-container{
+    background: #fff;
+    height: 280px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: none;
+    outline: 0;
+    border-radius: 10px;
+    box-shadow: 6px 5px 13px 0px rgba(37, 100, 97, 1);
+    text-align: center;
+}
+
+#quote{
+    position: absolute;
+    top: 50px;
+    font-size: 15px;
+}
+
+#author{
+    position: absolute;
+    bottom: 95px;
+}
+
+#get-quote{
+    position: absolute;
+    bottom: 40px;
+    height: 50px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #a9ebca;
+    border: none;
+    outline: 0;
+}
+
+#get-quote:hover{
+    height: 60px;
+    width: 100px;
+    position: absolute;
+    bottom: 35px;
+    font-size: 18px;
+    transition: 0.5s;
+    -webkit-box-shadow: 6px 5px 13px 0px rgba(37, 100, 97, 1);
+    -moz-box-shadow: 6px 5px 13px 0px rgba(37, 100, 97, 1);
+    box-shadow: 6px 5px 13px 0px rgba(37, 100, 97, 1);
+    -webkit-transition: box-shadow 0.5s ease-out;
+    -moz-transition: box-shadow 0.5s ease-out;
+    -ms-transition: box-shadow 0.5s ease-out;
+    -o-transition: box-shadow 0.5s ease-out;
+    transition: box-shadow 0.5s ease-out;
+    cursor: pointer;
+}
