@@ -1,0 +1,23 @@
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#input{
+    height: 40px;
+    width: 200px;
+}
+
+#addTask{
+    height: 40px;
+}
+
+#toDos{
+    padding: 10px;
+}
+
+.task{
+    border: 1px solid black;
+}
